@@ -20,9 +20,6 @@ const Logo = styled.img`
     margin-left: 140px;
   }
 
-  @media (max-width: 768px) {
-    margin-left: 200px;
-  }
 `;
 
 const TopContainer = styled.div`
@@ -42,9 +39,6 @@ const ImageOne = styled.img`
     width: 120px;
   }
 
-  @media (max-width: 768px) {
-    margin-left: 10px;
-  }
 `;
 
 const ImageTwo = styled.img`
@@ -59,9 +53,6 @@ const ImageTwo = styled.img`
     width: 120px;
   }
 
-  @media (max-width: 768px) {
-    margin-left: -20px;
-  }
 `;
 
 const Header = styled.h1`
@@ -81,12 +72,7 @@ const Header = styled.h1`
     margin-left: -100px;
   }
 
-  @media (max-width: 768px) {
-    font-size: 48px;
-    line-height: 48px;
-    margin-top: 180px;
-    margin-left: -90px;
-  }
+
 `;
 
 const Paragraph = styled.p`
@@ -102,10 +88,6 @@ const Paragraph = styled.p`
     font-size: 14px;
   }
 
-  @media (max-width: 768px) {
-    font-size: 18px;
-    margin-top: 10px;
-  }
 
 `;
 
@@ -129,9 +111,6 @@ const ButtonOne = styled.button`
     margin-left: 91px;
   }
   
-  @media (max-width: 768px) {
-    margin-left: 110px;
-  }
 
   &:hover {
     background: #71c0d4;
@@ -177,9 +156,6 @@ const Line = styled.hr`
     margin-left: 40px;
   }
 
-  @media (max-width: 768px) {
-    margin-left: 50px;
-  }
 `;
 
 const Separation = styled.div`
@@ -204,9 +180,6 @@ const Separation = styled.div`
     margin-left: 5px;
   }
 
-  @media (max-width: 768px) {
-    margin-left: 15px;
-  }
 `;
 
 
@@ -238,13 +211,6 @@ const PeopleImages = styled.img`
     margin-top: 10px;
   }
 
-  @media (max-width: 768px) {
-    height: 170px;
-    width: 170px;
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-top: 10px;
-  }
 
 `;
 
@@ -265,11 +231,6 @@ const Advice = styled.h2`
     margin-left: 60px;
   }
 
-  @media (max-width: 768px) {
-    margin-top: 30px;
-    margin-left: 255px;
-  }
-  
 `;
 
 const HeaderTwo = styled.h2`
@@ -287,10 +248,6 @@ const HeaderTwo = styled.h2`
     line-height: 36px;
   }
 
-  @media (max-width: 768px) {
-    margin-top: 30px;
-    margin-left: 60px;
-  }
 `;
 
 const ParagraphTwo = styled.p`
@@ -306,12 +263,8 @@ const ParagraphTwo = styled.p`
 
    @media (max-width: 375px){
     font-size: 12px;
-   }
-
-   @media (max-width: 768px) {
-    margin-top: 30px;
-    margin-left: 60px;
   }
+
 `;
 
 

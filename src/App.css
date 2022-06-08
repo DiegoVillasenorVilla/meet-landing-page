@@ -33,15 +33,8 @@
 
 @media(max-width:375px) {
   .background-footer{
-    width: 375px;
     background-image: url(./assets/mobile/image-footer.jpg);
     
   }
 }
 
-@media (max-width:768px){
-  .background-footer{
-    width: 768px;
-    background-image: url(./assets/tablet/image-footer.jpg);
-  }
-}
